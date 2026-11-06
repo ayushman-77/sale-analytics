@@ -1,0 +1,124 @@
+[
+  {
+    "test_name": "Tier-1 vs Tier-3 AOV",
+    "hypothesis": "H\u2080: \u03bc_Tier1 = \u03bc_Tier3",
+    "test_type": "Welch's t-test",
+    "statistic": 2.1478,
+    "p_value": 0.031825,
+    "significant_at_05": "True",
+    "conclusion": "Significant difference in AOV between Tier-1 (\u20b98,522) and Tier-3 (\u20b97,593). Cohen's d = 0.06 (small effect).",
+    "effect_size": 0.0583,
+    "details": {
+      "tier1_mean": 8522.27,
+      "tier1_n": 5414,
+      "tier3_mean": 7592.8,
+      "tier3_n": 1472
+    }
+  },
+  {
+    "test_name": "Delivery vs Return Independence",
+    "hypothesis": "H\u2080: Variables are independent",
+    "test_type": "Chi-squared test",
+    "statistic": 120.9107,
+    "p_value": 0.0,
+    "significant_at_05": "True",
+    "conclusion": "Delivery status and return status are NOT independent (\u03c7\u00b2 = 120.91, df = 1, Cram\u00e9r's V = 0.117). Delayed deliveries are associated with higher return rates.",
+    "effect_size": 0.1166,
+    "details": {
+      "dof": 1,
+      "cramers_v": 0.1166,
+      "contingency_table": {
+        "Kept": {
+          "Delayed": 1501,
+          "On Time": 6765
+        },
+        "Returned": {
+          "Delayed": 226,
+          "On Time": 396
+        }
+      }
+    }
+  },
+  {
+    "test_name": "AOV Across Categories",
+    "hypothesis": "H\u2080: All category AOVs are equal",
+    "test_type": "One-way ANOVA",
+    "statistic": 634.7512,
+    "p_value": 0.0,
+    "significant_at_05": "True",
+    "conclusion": "Significant difference in AOV across categories (F = 634.75, \u03b7\u00b2 = 0.340). Category explains 34.0% of AOV variance.",
+    "effect_size": 0.3403,
+    "details": {
+      "eta_squared": 0.3403,
+      "category_means": {
+        "mean": {
+          "Beauty & Personal Care": 1474.18,
+          "Electronics": 25275.8,
+          "Ethnic Wear": 3290.48,
+          "Footwear": 2754.01,
+          "Home Appliances": 8321.81,
+          "Home D\u00e9cor": 1237.38,
+          "Jewellery": 5000.19,
+          "Mobile Accessories": 1300.95,
+          "Toys & Games": 1887.73
+        },
+        "count": {
+          "Beauty & Personal Care": 985,
+          "Electronics": 2201,
+          "Ethnic Wear": 1717,
+          "Footwear": 1019,
+          "Home Appliances": 1333,
+          "Home D\u00e9cor": 683,
+          "Jewellery": 582,
+          "Mobile Accessories": 843,
+          "Toys & Games": 489
+        }
+      }
+    }
+  },
+  {
+    "test_name": "Weekend vs Weekday AOV",
+    "hypothesis": "H\u2080: Distributions are equal",
+    "test_type": "Mann-Whitney U test",
+    "statistic": 11024615.5,
+    "p_value": 0.313309,
+    "significant_at_05": "False",
+    "conclusion": "No significant difference between weekend (\u20b98,407, n=3,532) and weekday (\u20b98,341, n=6,320) order values.",
+    "effect_size": 0.0042,
+    "details": {
+      "weekend_mean": 8407.4,
+      "weekend_n": 3532,
+      "weekday_mean": 8340.71,
+      "weekday_n": 6320
+    }
+  },
+  {
+    "test_name": "Discount vs Units Sold",
+    "hypothesis": "H\u2080: \u03c1 = 0 (no correlation)",
+    "test_type": "Pearson correlation",
+    "statistic": -0.0944,
+    "p_value": 0.195134,
+    "significant_at_05": "False",
+    "conclusion": "No significant correlation between discount % and units sold (r = -0.094). Discount level alone does not strongly predict sales volume.",
+    "details": {
+      "pearson_r": -0.0944,
+      "n_products": 190
+    }
+  },
+  {
+    "test_name": "New vs Repeat Customer Spend",
+    "hypothesis": "H\u2080: \u03bc_repeat = \u03bc_new",
+    "test_type": "Welch's t-test",
+    "statistic": 0.1028,
+    "p_value": 0.91814,
+    "significant_at_05": "False",
+    "conclusion": "Repeat customers spend not significantly more (\u20b926,180) than new customers (\u20b926,056). Cohen's d = 0.00.",
+    "effect_size": 0.004,
+    "details": {
+      "repeat_mean": 26180.03,
+      "repeat_n": 1694,
+      "new_mean": 26055.9,
+      "new_n": 1150
+    }
+  }
+]

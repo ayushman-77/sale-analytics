@@ -1,0 +1,191 @@
+Product_ID,Product_Name,Category,Sub_Category,Brand,MRP_INR,Sale_Price_INR,Discount_Pct
+PROD-0001,Apple Smartphone Classic,Electronics,Smartphones,Apple,25669,24389,5
+PROD-0002,Xiaomi Smartphone Lite,Electronics,Smartphones,Xiaomi,73149,58519,20
+PROD-0003,Apple Smartphone Prime,Electronics,Smartphones,Apple,49159,44239,10
+PROD-0004,Samsung Smartphone Plus,Electronics,Smartphones,Samsung,38579,36649,5
+PROD-0005,Xiaomi Smartphone Pro,Electronics,Smartphones,Xiaomi,17259,13809,20
+PROD-0006,Xiaomi Laptop Max,Electronics,Laptops,Xiaomi,35609,23149,35
+PROD-0007,Dell Laptop Pro,Electronics,Laptops,Dell,31979,23979,25
+PROD-0008,OnePlus Laptop Elite,Electronics,Laptops,OnePlus,77689,50499,35
+PROD-0009,Sony Laptop Max,Electronics,Laptops,Sony,58069,49359,15
+PROD-0010,Boat Laptop Plus,Electronics,Laptops,Boat,65309,58779,10
+PROD-0011,Apple Tablet Elite,Electronics,Tablets,Apple,10309,7219,30
+PROD-0012,Lenovo Tablet Pro,Electronics,Tablets,Lenovo,43009,32259,25
+PROD-0013,Dell Tablet Prime,Electronics,Tablets,Dell,34969,31469,10
+PROD-0014,Apple Tablet Elite,Electronics,Tablets,Apple,13759,10319,25
+PROD-0015,Xiaomi Headphone Pro,Electronics,Headphones,Xiaomi,929,839,10
+PROD-0016,Xiaomi Headphone Plus,Electronics,Headphones,Xiaomi,929,699,25
+PROD-0017,Xiaomi Headphone Prime,Electronics,Headphones,Xiaomi,1409,1269,10
+PROD-0018,Sony Headphone Elite,Electronics,Headphones,Sony,2979,1789,40
+PROD-0019,OnePlus Headphone Elite,Electronics,Headphones,OnePlus,2169,1519,30
+PROD-0020,Sony Smartwatche Lite,Electronics,Smartwatches,Sony,3399,3059,10
+PROD-0021,HP Smartwatche Lite,Electronics,Smartwatches,HP,8389,6709,20
+PROD-0022,Dell Smartwatche Classic,Electronics,Smartwatches,Dell,2219,1439,35
+PROD-0023,HP Camera Elite,Electronics,Cameras,HP,15659,12529,20
+PROD-0024,Samsung Camera Pro,Electronics,Cameras,Samsung,18029,14419,20
+PROD-0025,Boat Camera Classic,Electronics,Cameras,Boat,21379,13899,35
+PROD-0026,Apple Camera Elite,Electronics,Cameras,Apple,39919,31939,20
+PROD-0027,Xiaomi Camera Prime,Electronics,Cameras,Xiaomi,13139,7879,40
+PROD-0028,Manyavar Saree Classic,Ethnic Wear,Sarees,Manyavar,3349,2849,15
+PROD-0029,Biba Saree Classic,Ethnic Wear,Sarees,Biba,4169,3339,20
+PROD-0030,Aurelia Saree Prime,Ethnic Wear,Sarees,Aurelia,909,589,35
+PROD-0031,W Saree Lite,Ethnic Wear,Sarees,W,4349,3479,20
+PROD-0032,Libas Saree Plus,Ethnic Wear,Sarees,Libas,1289,769,40
+PROD-0033,Global Desi Kurta Set Lite,Ethnic Wear,Kurta Sets,Global Desi,699,629,10
+PROD-0034,Aurelia Kurta Set Prime,Ethnic Wear,Kurta Sets,Aurelia,5329,4529,15
+PROD-0035,Libas Kurta Set Prime,Ethnic Wear,Kurta Sets,Libas,5539,4979,10
+PROD-0036,Libas Lehenga Classic,Ethnic Wear,Lehengas,Libas,10189,6109,40
+PROD-0037,Libas Lehenga Plus,Ethnic Wear,Lehengas,Libas,3689,3499,5
+PROD-0038,Aurelia Lehenga Elite,Ethnic Wear,Lehengas,Aurelia,2429,1819,25
+PROD-0039,Fabindia Lehenga Prime,Ethnic Wear,Lehengas,Fabindia,7939,5949,25
+PROD-0040,Manyavar Sherwani Classic,Ethnic Wear,Sherwanis,Manyavar,3459,3289,5
+PROD-0041,Libas Sherwani Plus,Ethnic Wear,Sherwanis,Libas,1889,1609,15
+PROD-0042,Global Desi Sherwani Max,Ethnic Wear,Sherwanis,Global Desi,3839,2879,25
+PROD-0043,W Dupatta Pro,Ethnic Wear,Dupattas,W,269,229,15
+PROD-0044,Libas Dupatta,Ethnic Wear,Dupattas,Libas,1649,1149,30
+PROD-0045,Fabindia Dupatta Elite,Ethnic Wear,Dupattas,Fabindia,429,389,10
+PROD-0046,Kent Mixer Grinder Max,Home Appliances,Mixer Grinders,Kent,4549,4319,5
+PROD-0047,Philips Mixer Grinder,Home Appliances,Mixer Grinders,Philips,2529,2279,10
+PROD-0048,Philips Mixer Grinder Lite,Home Appliances,Mixer Grinders,Philips,3579,3039,15
+PROD-0049,Bosch Mixer Grinder Classic,Home Appliances,Mixer Grinders,Bosch,3739,3179,15
+PROD-0050,Crompton Air Purifier Max,Home Appliances,Air Purifiers,Crompton,6729,5379,20
+PROD-0051,Havells Air Purifier Elite,Home Appliances,Air Purifiers,Havells,23799,15469,35
+PROD-0052,Bosch Air Purifier Plus,Home Appliances,Air Purifiers,Bosch,17409,10439,40
+PROD-0053,Kent Air Purifier Plus,Home Appliances,Air Purifiers,Kent,22679,18139,20
+PROD-0054,Bajaj Air Purifier Max,Home Appliances,Air Purifiers,Bajaj,21109,20049,5
+PROD-0055,Kent Vacuum Cleaner Plus,Home Appliances,Vacuum Cleaners,Kent,9329,8859,5
+PROD-0056,Prestige Vacuum Cleaner Plus,Home Appliances,Vacuum Cleaners,Prestige,17239,13789,20
+PROD-0057,Prestige Vacuum Cleaner Plus,Home Appliances,Vacuum Cleaners,Prestige,3549,2479,30
+PROD-0058,Kent Vacuum Cleaner,Home Appliances,Vacuum Cleaners,Kent,4349,3259,25
+PROD-0059,Kent Vacuum Cleaner,Home Appliances,Vacuum Cleaners,Kent,3269,2779,15
+PROD-0060,Bosch Iron Max,Home Appliances,Irons,Bosch,1059,689,35
+PROD-0061,Philips Iron Prime,Home Appliances,Irons,Philips,1189,1069,10
+PROD-0062,Bajaj Iron Prime,Home Appliances,Irons,Bajaj,969,629,35
+PROD-0063,Prestige Water Purifier Pro,Home Appliances,Water Purifiers,Prestige,15599,14039,10
+PROD-0064,Crompton Water Purifier Plus,Home Appliances,Water Purifiers,Crompton,9049,6329,30
+PROD-0065,Kent Water Purifier Max,Home Appliances,Water Purifiers,Kent,8289,6629,20
+PROD-0066,Bosch Water Purifier Prime,Home Appliances,Water Purifiers,Bosch,11209,9529,15
+PROD-0067,Havells Microwave Max,Home Appliances,Microwaves,Havells,5839,3499,40
+PROD-0068,Philips Microwave Plus,Home Appliances,Microwaves,Philips,12069,7239,40
+PROD-0069,Prestige Microwave Plus,Home Appliances,Microwaves,Prestige,5429,5159,5
+PROD-0070,Puma Sneaker,Footwear,Sneakers,Puma,8739,5679,35
+PROD-0071,Campus Sneaker Prime,Footwear,Sneakers,Campus,5449,4359,20
+PROD-0072,Nike Sneaker Prime,Footwear,Sneakers,Nike,1549,1319,15
+PROD-0073,Red Tape Ethnic Footwear,Footwear,Ethnic Footwear,Red Tape,399,299,25
+PROD-0074,Metro Ethnic Footwear,Footwear,Ethnic Footwear,Metro,2609,1699,35
+PROD-0075,Puma Ethnic Footwear Classic,Footwear,Ethnic Footwear,Puma,2029,1619,20
+PROD-0076,Nike Formal Shoe Elite,Footwear,Formal Shoes,Nike,4129,3919,5
+PROD-0077,Nike Formal Shoe,Footwear,Formal Shoes,Nike,4479,4259,5
+PROD-0078,Puma Formal Shoe Plus,Footwear,Formal Shoes,Puma,1149,1089,5
+PROD-0079,Adidas Sandal Max,Footwear,Sandals,Adidas,639,579,10
+PROD-0080,Red Tape Sandal Max,Footwear,Sandals,Red Tape,379,339,10
+PROD-0081,Nike Sandal Prime,Footwear,Sandals,Nike,1869,1679,10
+PROD-0082,Woodland Sports Shoe Max,Footwear,Sports Shoes,Woodland,4889,3669,25
+PROD-0083,Woodland Sports Shoe Classic,Footwear,Sports Shoes,Woodland,2809,2249,20
+PROD-0084,Red Tape Sports Shoe Classic,Footwear,Sports Shoes,Red Tape,1689,1439,15
+PROD-0085,Campus Sports Shoe Plus,Footwear,Sports Shoes,Campus,2699,1889,30
+PROD-0086,Nike Sports Shoe Plus,Footwear,Sports Shoes,Nike,2779,1669,40
+PROD-0087,Nivea Skincare Lite,Beauty & Personal Care,Skincare,Nivea,1779,1329,25
+PROD-0088,Mamaearth Skincare Max,Beauty & Personal Care,Skincare,Mamaearth,1349,1209,10
+PROD-0089,Mamaearth Skincare Lite,Beauty & Personal Care,Skincare,Mamaearth,2849,2139,25
+PROD-0090,Biotique Haircare Classic,Beauty & Personal Care,Haircare,Biotique,509,479,5
+PROD-0091,Maybelline Haircare Classic,Beauty & Personal Care,Haircare,Maybelline,199,169,15
+PROD-0092,Maybelline Haircare Lite,Beauty & Personal Care,Haircare,Maybelline,949,849,10
+PROD-0093,Biotique Haircare Max,Beauty & Personal Care,Haircare,Biotique,1069,799,25
+PROD-0094,Mamaearth Fragrance Classic,Beauty & Personal Care,Fragrances,Mamaearth,2009,1609,20
+PROD-0095,Dove Fragrance Pro,Beauty & Personal Care,Fragrances,Dove,3389,2539,25
+PROD-0096,Maybelline Fragrance Classic,Beauty & Personal Care,Fragrances,Maybelline,1699,1099,35
+PROD-0097,Lakme Fragrance Elite,Beauty & Personal Care,Fragrances,Lakme,1829,1739,5
+PROD-0098,L'Oreal Fragrance Lite,Beauty & Personal Care,Fragrances,L'Oreal,1439,1079,25
+PROD-0099,Dove Makeup Pro,Beauty & Personal Care,Makeup,Dove,209,139,35
+PROD-0100,Maybelline Makeup Lite,Beauty & Personal Care,Makeup,Maybelline,269,239,10
+PROD-0101,Lakme Makeup Lite,Beauty & Personal Care,Makeup,Lakme,219,149,30
+PROD-0102,The Body Shop Makeup Pro,Beauty & Personal Care,Makeup,The Body Shop,1229,1039,15
+PROD-0103,Biotique Makeup Pro,Beauty & Personal Care,Makeup,Biotique,489,339,30
+PROD-0104,Nivea Grooming Kit Plus,Beauty & Personal Care,Grooming Kits,Nivea,1609,1289,20
+PROD-0105,Mamaearth Grooming Kit Lite,Beauty & Personal Care,Grooming Kits,Mamaearth,4039,2619,35
+PROD-0106,Nivea Grooming Kit Lite,Beauty & Personal Care,Grooming Kits,Nivea,889,759,15
+PROD-0107,The Body Shop Grooming Kit Lite,Beauty & Personal Care,Grooming Kits,The Body Shop,1279,1219,5
+PROD-0108,Ambrane Cases & Cover Max,Mobile Accessories,Cases & Covers,Ambrane,849,549,35
+PROD-0109,Boat Cases & Cover Plus,Mobile Accessories,Cases & Covers,Boat,249,209,15
+PROD-0110,Belkin Cases & Cover,Mobile Accessories,Cases & Covers,Belkin,179,169,5
+PROD-0111,Mi Cases & Cover,Mobile Accessories,Cases & Covers,Mi,289,229,20
+PROD-0112,Ambrane Cases & Cover Max,Mobile Accessories,Cases & Covers,Ambrane,219,159,25
+PROD-0113,Spigen Charger Prime,Mobile Accessories,Chargers,Spigen,2149,1719,20
+PROD-0114,Ambrane Charger Plus,Mobile Accessories,Chargers,Ambrane,1659,1239,25
+PROD-0115,Boat Charger Prime,Mobile Accessories,Chargers,Boat,1149,799,30
+PROD-0116,Ambrane Power Bank Plus,Mobile Accessories,Power Banks,Ambrane,3059,2909,5
+PROD-0117,Boat Power Bank Classic,Mobile Accessories,Power Banks,Boat,2659,2259,15
+PROD-0118,Spigen Power Bank Prime,Mobile Accessories,Power Banks,Spigen,739,659,10
+PROD-0119,Ambrane Power Bank Prime,Mobile Accessories,Power Banks,Ambrane,3199,2239,30
+PROD-0120,Samsung Power Bank Max,Mobile Accessories,Power Banks,Samsung,1529,989,35
+PROD-0121,Spigen Screen Guard Pro,Mobile Accessories,Screen Guards,Spigen,529,339,35
+PROD-0122,Mi Screen Guard Prime,Mobile Accessories,Screen Guards,Mi,639,449,30
+PROD-0123,Samsung Screen Guard Elite,Mobile Accessories,Screen Guards,Samsung,189,129,30
+PROD-0124,Samsung Screen Guard Classic,Mobile Accessories,Screen Guards,Samsung,119,99,25
+PROD-0125,Belkin Earphone Prime,Mobile Accessories,Earphones,Belkin,489,339,30
+PROD-0126,Boat Earphone Max,Mobile Accessories,Earphones,Boat,899,759,15
+PROD-0127,Belkin Earphone Lite,Mobile Accessories,Earphones,Belkin,2899,1879,35
+PROD-0128,Boat Earphone Pro,Mobile Accessories,Earphones,Boat,3289,2139,35
+PROD-0129,Boat Earphone Max,Mobile Accessories,Earphones,Boat,249,189,25
+PROD-0130,DecorTwist Lighting,Home Décor,Lighting,DecorTwist,1849,1289,30
+PROD-0131,Elvy Lighting Max,Home Décor,Lighting,Elvy,1389,829,40
+PROD-0132,DecorTwist Lighting Lite,Home Décor,Lighting,DecorTwist,779,469,40
+PROD-0133,Nestasia Lighting Classic,Home Décor,Lighting,Nestasia,569,509,10
+PROD-0134,Nestasia Wall Art Plus,Home Décor,Wall Art,Nestasia,1159,809,30
+PROD-0135,FabIndia Home Wall Art Max,Home Décor,Wall Art,FabIndia Home,5209,3909,25
+PROD-0136,FabIndia Home Wall Art Pro,Home Décor,Wall Art,FabIndia Home,1109,939,15
+PROD-0137,Home Centre Wall Art,Home Décor,Wall Art,Home Centre,1809,1449,20
+PROD-0138,DecorTwist Wall Art,Home Décor,Wall Art,DecorTwist,2869,2579,10
+PROD-0139,Nestasia Cushions & Throw Prime,Home Décor,Cushions & Throws,Nestasia,689,549,20
+PROD-0140,Elvy Cushions & Throw Max,Home Décor,Cushions & Throws,Elvy,2809,1829,35
+PROD-0141,FabIndia Home Cushions & Throw Plus,Home Décor,Cushions & Throws,FabIndia Home,2749,2609,5
+PROD-0142,Elvy Cushions & Throw Lite,Home Décor,Cushions & Throws,Elvy,529,419,20
+PROD-0143,DecorTwist Vase Pro,Home Décor,Vases,DecorTwist,1099,659,40
+PROD-0144,DecorTwist Vase Plus,Home Décor,Vases,DecorTwist,699,559,20
+PROD-0145,Elvy Vase,Home Décor,Vases,Elvy,669,569,15
+PROD-0146,Nestasia Vase,Home Décor,Vases,Nestasia,379,259,30
+PROD-0147,DecorTwist Vase,Home Décor,Vases,DecorTwist,1419,919,35
+PROD-0148,Nestasia Candles & Diya,Home Décor,Candles & Diyas,Nestasia,549,329,40
+PROD-0149,IKEA Candles & Diya Classic,Home Décor,Candles & Diyas,IKEA,169,139,20
+PROD-0150,DecorTwist Candles & Diya Max,Home Décor,Candles & Diyas,DecorTwist,309,179,40
+PROD-0151,Zaveri Pearls Gold Plated Classic,Jewellery,Gold Plated,Zaveri Pearls,11699,10529,10
+PROD-0152,Voylla Gold Plated Elite,Jewellery,Gold Plated,Voylla,1909,1429,25
+PROD-0153,GIVA Gold Plated Lite,Jewellery,Gold Plated,GIVA,1479,1329,10
+PROD-0154,Voylla Gold Plated Prime,Jewellery,Gold Plated,Voylla,3759,3009,20
+PROD-0155,Voylla Silver Plus,Jewellery,Silver,Voylla,19269,15419,20
+PROD-0156,Zaveri Pearls Silver Elite,Jewellery,Silver,Zaveri Pearls,2809,1829,35
+PROD-0157,Sukkhi Silver Prime,Jewellery,Silver,Sukkhi,8549,5129,40
+PROD-0158,Tanishq Silver Prime,Jewellery,Silver,Tanishq,10779,8619,20
+PROD-0159,Zaveri Pearls Silver Prime,Jewellery,Silver,Zaveri Pearls,2769,2629,5
+PROD-0160,Tanishq Artificial Classic,Jewellery,Artificial,Tanishq,2079,1459,30
+PROD-0161,Kalyan Artificial Prime,Jewellery,Artificial,Kalyan,649,419,35
+PROD-0162,Sukkhi Artificial,Jewellery,Artificial,Sukkhi,1529,1219,20
+PROD-0163,Voylla Artificial Prime,Jewellery,Artificial,Voylla,1529,1149,25
+PROD-0164,Tanishq Bridal Set Elite,Jewellery,Bridal Sets,Tanishq,10299,6689,35
+PROD-0165,PC Jeweller Bridal Set Lite,Jewellery,Bridal Sets,PC Jeweller,3689,2399,35
+PROD-0166,Kalyan Bridal Set Lite,Jewellery,Bridal Sets,Kalyan,20529,12319,40
+PROD-0167,Sukkhi Bridal Set Prime,Jewellery,Bridal Sets,Sukkhi,6279,5959,5
+PROD-0168,Sukkhi Bangle Plus,Jewellery,Bangles,Sukkhi,549,519,5
+PROD-0169,PC Jeweller Bangle Lite,Jewellery,Bangles,PC Jeweller,339,219,35
+PROD-0170,Kalyan Bangle Lite,Jewellery,Bangles,Kalyan,2079,1249,40
+PROD-0171,Tanishq Bangle Prime,Jewellery,Bangles,Tanishq,2769,2079,25
+PROD-0172,GIVA Bangle,Jewellery,Bangles,GIVA,319,259,20
+PROD-0173,Hot Wheels Board Game Classic,Toys & Games,Board Games,Hot Wheels,969,629,35
+PROD-0174,Hasbro Board Game Classic,Toys & Games,Board Games,Hasbro,499,319,35
+PROD-0175,Hasbro Board Game,Toys & Games,Board Games,Hasbro,1319,1189,10
+PROD-0176,Funskool Board Game Elite,Toys & Games,Board Games,Funskool,449,429,5
+PROD-0177,Mattel Action Figure Pro,Toys & Games,Action Figures,Mattel,1959,1759,10
+PROD-0178,Hasbro Action Figure Max,Toys & Games,Action Figures,Hasbro,969,919,5
+PROD-0179,Lego Action Figure Lite,Toys & Games,Action Figures,Lego,3459,3289,5
+PROD-0180,Lego Educational Toy Plus,Toys & Games,Educational Toys,Lego,689,409,40
+PROD-0181,Toyzone Educational Toy,Toys & Games,Educational Toys,Toyzone,1099,879,20
+PROD-0182,Mattel Educational Toy Elite,Toys & Games,Educational Toys,Mattel,649,489,25
+PROD-0183,Toyzone Building Block Lite,Toys & Games,Building Blocks,Toyzone,5039,4539,10
+PROD-0184,Hot Wheels Building Block Pro,Toys & Games,Building Blocks,Hot Wheels,4519,4069,10
+PROD-0185,Hot Wheels Building Block Prime,Toys & Games,Building Blocks,Hot Wheels,1089,709,35
+PROD-0186,Lego Outdoor Toy Max,Toys & Games,Outdoor Toys,Lego,1509,1359,10
+PROD-0187,Funskool Outdoor Toy Plus,Toys & Games,Outdoor Toys,Funskool,2069,1549,25
+PROD-0188,Hasbro Outdoor Toy Elite,Toys & Games,Outdoor Toys,Hasbro,1219,1159,5
+PROD-0189,Toyzone Outdoor Toy Elite,Toys & Games,Outdoor Toys,Toyzone,1159,749,35
+PROD-0190,Funskool Outdoor Toy Pro,Toys & Games,Outdoor Toys,Funskool,649,449,30

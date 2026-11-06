@@ -1,0 +1,8 @@
+Date,Day_Name,Day_Number,Is_Weekend,Sale_Day_Label
+2025-10-23,Thursday,1,False,Day 1 — Launch
+2025-10-24,Friday,2,False,Day 2 — Build-up
+2025-10-25,Saturday,3,True,Day 3 — Peak Day 1
+2025-10-26,Sunday,4,True,Day 4 — Peak Day 2 (Diwali Eve)
+2025-10-27,Monday,5,False,Day 5 — Diwali Day
+2025-10-28,Tuesday,6,False,Day 6 — Wind-down
+2025-10-29,Wednesday,7,False,Day 7 — Final Day

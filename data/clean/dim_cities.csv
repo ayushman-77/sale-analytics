@@ -1,0 +1,43 @@
+City_ID,City_Name,City_Tier,State,Region
+CITY-001,Mumbai,Tier-1,Maharashtra,West
+CITY-002,Delhi,Tier-1,Delhi,North
+CITY-003,Bengaluru,Tier-1,Karnataka,South
+CITY-004,Hyderabad,Tier-1,Telangana,South
+CITY-005,Chennai,Tier-1,Tamil Nadu,South
+CITY-006,Kolkata,Tier-1,West Bengal,East
+CITY-007,Pune,Tier-1,Maharashtra,West
+CITY-008,Ahmedabad,Tier-1,Gujarat,West
+CITY-009,Jaipur,Tier-2,Rajasthan,North
+CITY-010,Lucknow,Tier-2,Uttar Pradesh,North
+CITY-011,Chandigarh,Tier-2,Chandigarh,North
+CITY-012,Indore,Tier-2,Madhya Pradesh,Central
+CITY-013,Nagpur,Tier-2,Maharashtra,West
+CITY-014,Bhopal,Tier-2,Madhya Pradesh,Central
+CITY-015,Coimbatore,Tier-2,Tamil Nadu,South
+CITY-016,Visakhapatnam,Tier-2,Andhra Pradesh,South
+CITY-017,Kochi,Tier-2,Kerala,South
+CITY-018,Surat,Tier-2,Gujarat,West
+CITY-019,Patna,Tier-2,Bihar,East
+CITY-020,Vadodara,Tier-2,Gujarat,West
+CITY-021,Thiruvananthapuram,Tier-2,Kerala,South
+CITY-022,Mysuru,Tier-2,Karnataka,South
+CITY-023,Udaipur,Tier-3,Rajasthan,North
+CITY-024,Jalandhar,Tier-3,Punjab,North
+CITY-025,Agra,Tier-3,Uttar Pradesh,North
+CITY-026,Varanasi,Tier-3,Uttar Pradesh,North
+CITY-027,Dehradun,Tier-3,Uttarakhand,North
+CITY-028,Jodhpur,Tier-3,Rajasthan,North
+CITY-029,Raipur,Tier-3,Chhattisgarh,Central
+CITY-030,Guwahati,Tier-3,Assam,East
+CITY-031,Ranchi,Tier-3,Jharkhand,East
+CITY-032,Bhubaneswar,Tier-3,Odisha,East
+CITY-033,Jammu,Tier-3,Jammu & Kashmir,North
+CITY-034,Shimla,Tier-3,Himachal Pradesh,North
+CITY-035,Amritsar,Tier-3,Punjab,North
+CITY-036,Mangaluru,Tier-3,Karnataka,South
+CITY-037,Tirupati,Tier-3,Andhra Pradesh,South
+CITY-038,Aligarh,Tier-3,Uttar Pradesh,North
+CITY-039,Bareilly,Tier-3,Uttar Pradesh,North
+CITY-040,Moradabad,Tier-3,Uttar Pradesh,North
+CITY-041,Gorakhpur,Tier-3,Uttar Pradesh,North
+CITY-042,Hubli,Tier-3,Karnataka,South

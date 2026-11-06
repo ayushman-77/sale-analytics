@@ -1,0 +1,127 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+        <title>Data Quality Profile Report</title>
+        <style>
+            body { font-family: 'Segoe UI', sans-serif; background: #0E1117; color: #FAFAFA; padding: 40px; }
+            h1 { color: #FF6F00; border-bottom: 2px solid #FFD700; padding-bottom: 10px; }
+            h2 { color: #FFD700; margin-top: 30px; }
+            table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+            th { background: #1E2A3A; color: #FFD700; padding: 10px; text-align: left; border: 1px solid #333; }
+            td { padding: 8px 10px; border: 1px solid #333; }
+            tr:nth-child(even) { background: #1a1a2e; }
+            .warn { color: #FFC107; font-weight: bold; }
+            .good { color: #4CAF50; }
+            .bad { color: #F44336; font-weight: bold; }
+            .summary-card { display: inline-block; background: #1E2A3A; border-radius: 8px;
+                            padding: 20px; margin: 8px; min-width: 160px; text-align: center;
+                            border: 1px solid #333; }
+            .summary-card .value { font-size: 28px; font-weight: bold; color: #FF6F00; }
+            .summary-card .label { font-size: 13px; color: #B0BEC5; margin-top: 5px; }
+        </style></head><body>
+<h1>🪔 Data Quality Profile Report</h1>
+<p>Generated: 2026-11-06T15:13:56.339478</p>
+<div>
+<div class="summary-card"><div class="value">10,250</div><div class="label">Total Rows</div></div>
+<div class="summary-card"><div class="value">15</div><div class="label">Columns</div></div>
+<div class="summary-card"><div class="value">7.94 MB</div><div class="label">Memory</div></div>
+<div class="summary-card"><div class="value">223</div><div class="label">Duplicates</div></div>
+</div>
+<h2>Column Details</h2>
+<table><tr><th>Column</th><th>Type</th><th>Nulls</th><th>Null %</th><th>Unique</th><th>Min</th><th>Max</th><th>Mean</th><th>Issues</th></tr>
+<tr><td><b>Order_ID</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>10,000</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>Customer_ID</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>2,891</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>Product_ID</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>190</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>City_ID</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>42</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>Order_Date</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>22</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>Order_Time</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>9,242</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>Quantity</b></td><td>int64</td><td class="good">0</td><td class="good">0.0%</td><td>6</td><td>-2.0</td><td>3.0</td><td>1.25</td><td>28 negatives, 7 zeros</td></tr>
+<tr><td><b>Item_Price_INR</b></td><td>float64</td><td class="warn">60</td><td class="warn">0.59%</td><td>168</td><td>-500.0</td><td>999999.0</td><td>7341.04</td><td>0.59% null, 7 negatives, 4 zeros</td></tr>
+<tr><td><b>Order_Value_INR</b></td><td>float64</td><td class="warn">60</td><td class="warn">0.59%</td><td>477</td><td>99.0</td><td>176337.0</td><td>8374.53</td><td>0.59% null</td></tr>
+<tr><td><b>Payment_Method</b></td><td>object</td><td class="warn">4</td><td class="warn">0.04%</td><td>11</td><td>—</td><td>—</td><td>—</td><td>0.04% null</td></tr>
+<tr><td><b>Delivery_Status</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>3</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>Return_Status</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>3</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>City_Name</b></td><td>object</td><td class="warn">150</td><td class="warn">1.46%</td><td>71</td><td>—</td><td>—</td><td>—</td><td>1.46% null</td></tr>
+<tr><td><b>Category</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>28</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+<tr><td><b>Sub_Category</b></td><td>object</td><td class="good">0</td><td class="good">0.0%</td><td>47</td><td>—</td><td>—</td><td>—</td><td><span class="good">✓ Clean</span></td></tr>
+</table>
+<h2>Top Values (Categorical Columns)</h2>
+<h3 style='color:#FF8F00'>Order_ID</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>DW-005902</td><td>2</td></tr>
+<tr><td>DW-004474</td><td>2</td></tr>
+<tr><td>DW-006323</td><td>2</td></tr>
+<tr><td>DW-003857</td><td>2</td></tr>
+<tr><td>DW-000878</td><td>2</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Customer_ID</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>CUST-02701</td><td>13</td></tr>
+<tr><td>CUST-00162</td><td>11</td></tr>
+<tr><td>CUST-00580</td><td>10</td></tr>
+<tr><td>CUST-01547</td><td>10</td></tr>
+<tr><td>CUST-00574</td><td>10</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Product_ID</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>PROD-0035</td><td>115</td></tr>
+<tr><td>PROD-0042</td><td>113</td></tr>
+<tr><td>PROD-0043</td><td>112</td></tr>
+<tr><td>PROD-0039</td><td>110</td></tr>
+<tr><td>PROD-0002</td><td>104</td></tr>
+</table>
+<h3 style='color:#FF8F00'>City_ID</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>CITY-002</td><td>743</td></tr>
+<tr><td>CITY-005</td><td>722</td></tr>
+<tr><td>CITY-008</td><td>715</td></tr>
+<tr><td>CITY-007</td><td>706</td></tr>
+<tr><td>CITY-004</td><td>706</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Order_Date</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>2025-10-25</td><td>1,856</td></tr>
+<tr><td>2025-10-26</td><td>1,812</td></tr>
+<tr><td>2025-10-27</td><td>1,505</td></tr>
+<tr><td>2025-10-24</td><td>1,410</td></tr>
+<tr><td>2025-10-28</td><td>1,357</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Order_Time</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>20:28:00</td><td>4</td></tr>
+<tr><td>17:46:46</td><td>4</td></tr>
+<tr><td>11:51:06</td><td>3</td></tr>
+<tr><td>23:10:07</td><td>3</td></tr>
+<tr><td>11:11:07</td><td>3</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Payment_Method</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>UPI</td><td>3,629</td></tr>
+<tr><td>Credit Card</td><td>2,037</td></tr>
+<tr><td>Debit Card</td><td>1,585</td></tr>
+<tr><td>COD</td><td>1,511</td></tr>
+<tr><td>Net Banking</td><td>779</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Delivery_Status</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>On Time</td><td>7,448</td></tr>
+<tr><td>Delayed</td><td>1,795</td></tr>
+<tr><td>Cancelled</td><td>1,007</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Return_Status</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>Kept</td><td>8,594</td></tr>
+<tr><td>Not Applicable</td><td>1,007</td></tr>
+<tr><td>Returned</td><td>649</td></tr>
+</table>
+<h3 style='color:#FF8F00'>City_Name</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>Delhi</td><td>735</td></tr>
+<tr><td>Chennai</td><td>700</td></tr>
+<tr><td>Ahmedabad</td><td>700</td></tr>
+<tr><td>Pune</td><td>699</td></tr>
+<tr><td>Hyderabad</td><td>692</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Category</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>Electronics</td><td>2,277</td></tr>
+<tr><td>Ethnic Wear</td><td>1,767</td></tr>
+<tr><td>Home Appliances</td><td>1,357</td></tr>
+<tr><td>Footwear</td><td>1,055</td></tr>
+<tr><td>Beauty & Personal Care</td><td>1,012</td></tr>
+</table>
+<h3 style='color:#FF8F00'>Sub_Category</h3><table><tr><th>Value</th><th>Count</th></tr>
+<tr><td>Sarees</td><td>488</td></tr>
+<tr><td>Smartphones</td><td>448</td></tr>
+<tr><td>Headphones</td><td>436</td></tr>
+<tr><td>Cameras</td><td>430</td></tr>
+<tr><td>Lehengas</td><td>413</td></tr>
+</table>
+</body></html>

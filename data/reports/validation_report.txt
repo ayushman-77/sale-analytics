@@ -1,0 +1,59 @@
+Data Validation Report — 2026-11-06 15:13:56
+=================================================================
+
+[ERROR  ] No null Order_IDs
+          → PASS ✓
+
+[ERROR  ] No null Customer_IDs
+          → PASS ✓
+
+[ERROR  ] No null Product_IDs
+          → PASS ✓
+
+[ERROR  ] No null City_IDs
+          → PASS ✓
+
+[ERROR  ] No null prices
+          → PASS ✓
+
+[ERROR  ] No null quantities
+          → PASS ✓
+
+[ERROR  ] Quantity > 0
+          → PASS ✓
+
+[ERROR  ] Item_Price > 0
+          → PASS ✓
+
+[ERROR  ] Item_Price ≤ ₹100,000
+          → PASS ✓
+
+[ERROR  ] Order_Value > 0
+          → PASS ✓
+
+[ERROR  ] Valid sale dates only
+          → PASS ✓
+
+[ERROR  ] Valid delivery statuses
+          → PASS ✓
+
+[ERROR  ] Valid return statuses
+          → PASS ✓
+
+[ERROR  ] Cancelled → Return = 'Not Applicable'
+          → PASS ✓
+
+[ERROR  ] Order_Value = Price × Quantity
+          → PASS ✓
+
+[ERROR  ] All City_IDs exist in dim_cities
+          → PASS ✓
+
+[ERROR  ] All Product_IDs exist in dim_products
+          → PASS ✓
+
+[ERROR  ] All Customer_IDs exist in dim_customers
+          → PASS ✓
+
+=================================================================
+SUMMARY: 18/18 checks passed

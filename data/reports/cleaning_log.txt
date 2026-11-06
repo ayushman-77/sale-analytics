@@ -1,0 +1,35 @@
+Data Cleaning Audit Log — 2026-11-06 15:13:56
+=================================================================
+
+[Step 1] Remove exact duplicate rows
+  Before: 10,250 │ After: 10,001 │ Removed: 249
+
+[Step 2] Remove rows with NULL Order_ID
+  Before: 10,001 │ After: 10,001 │ Removed: 0
+
+[Step 3] Standardize categories (28 → 9 unique)
+  Before: 10,001 │ After: 10,001 │ Removed: 0
+
+[Step 4] Standardize city names to title case
+  Before: 10,001 │ After: 10,001 │ Removed: 0
+
+[Step 5] Normalize payment method values
+  Before: 10,001 │ After: 10,001 │ Removed: 0
+
+[Step 6] Remove rows with quantity ≤ 0
+  Before: 10,001 │ After: 9,967 │ Removed: 34
+
+[Step 7] Remove NULL / negative / outlier prices (> ₹100,000)
+  Before: 9,967 │ After: 9,891 │ Removed: 76
+
+[Step 8] Recalculate Order_Value = Price × Quantity
+  Before: 9,891 │ After: 9,891 │ Removed: 0
+
+[Step 9] Filter to valid sale window (2025-10-23 → 2025-10-29)
+  Before: 9,891 │ After: 9,852 │ Removed: 39
+
+[Step 10] Enforce Return_Status = 'Not Applicable' for cancelled orders
+  Before: 9,852 │ After: 9,852 │ Removed: 0
+
+=================================================================
+FINAL: 10,250 → 9,852 rows
