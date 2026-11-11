@@ -1,4 +1,4 @@
-# 🪔 Festive E-Commerce Sales Performance Dashboard
+# Festive E-Commerce Sales Performance Dashboard
 
 > An end-to-end data analytics portfolio project simulating a major **Diwali sale event** on an Indian e-commerce platform — featuring a production-grade ETL pipeline, statistical analysis, and interactive Streamlit dashboard.
 
