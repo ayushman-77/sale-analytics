@@ -38,17 +38,17 @@ This project analyzes **10,000 synthetic orders** from a simulated 7-day Diwali 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌────────────────────┐
-│  Data Generation │───▶│   ETL Pipeline   │───▶│  Analysis Layer    │
-│  (Star Schema)   │    │ Profile → Clean  │    │ SQL + Statistics   │
-│                  │    │ → Validate       │    │ + EDA              │
-└─────────────────┘    └──────────────────┘    └────────────────────┘
+┌─────────────────┐    ┌──────────────────┐     ┌────────────────────┐
+│ Data Generation │───▶│   ETL Pipeline   │───▶│  Analysis Layer    │
+│  (Star Schema)  │    │ Profile → Clean  │     │ SQL + Statistics   │
+│                 │    │ → Validate       │     │      + EDA         │
+└─────────────────┘    └──────────────────┘     └────────────────────┘
                                                         │
                                                         ▼
                                                ┌────────────────────┐
-                                               │  Streamlit         │
-                                               │  Dashboard (5 tabs)│
-                                               │  + Plotly Charts   │
+                                               │     Streamlit      │
+                                               │ Dashboard (5 tabs) │
+                                               │ + Plotly Charts    │
                                                └────────────────────┘
 ```
 
@@ -107,7 +107,7 @@ sale-analytics/
 
 ```
                         ┌──────────────────┐
-                        │   dim_customers   │
+                        │   dim_customers  │
                         │──────────────────│
                         │ Customer_ID (PK) │
                         │ Customer_Name    │
@@ -120,7 +120,7 @@ sale-analytics/
 ┌──────────────────┐    ┌────────┴─────────┐    ┌──────────────────┐
 │   dim_products   │    │   fact_orders    │    │   dim_cities     │
 │──────────────────│    │──────────────────│    │──────────────────│
-│ Product_ID (PK)  │◄───│ Order_ID (PK)   │───►│ City_ID (PK)    │
+│ Product_ID (PK)  │◄───│ Order_ID (PK)    │───►│ City_ID (PK)     │
 │ Product_Name     │    │ Customer_ID (FK) │    │ City_Name        │
 │ Category         │    │ Product_ID (FK)  │    │ City_Tier        │
 │ Sub_Category     │    │ City_ID (FK)     │    │ State            │
