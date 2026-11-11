@@ -227,7 +227,3 @@ python main.py dashboard   # 4. Launch dashboard at http://localhost:8501
 ## 📝 License
 
 This project is for educational and portfolio purposes. The dataset is entirely synthetic.
-
----
-
-*Built as an end-to-end data analytics portfolio project · 2025*
